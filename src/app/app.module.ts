@@ -13,6 +13,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
+import { CriarContaComponent } from './criar-conta/criar-conta.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     LiberadoComponent,
     HeaderComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    CriarContaComponent
   ],
   imports: [
     BrowserModule,
